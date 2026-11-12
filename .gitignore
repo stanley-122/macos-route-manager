@@ -1,0 +1,5 @@
+.build/
+build/
+bak備份/
+.DS_Store
+*.dmg

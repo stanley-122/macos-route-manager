@@ -1,0 +1,37 @@
+Routing tables
+
+Internet:
+Destination        Gateway            Flags               Netif Expire
+default            192.168.88.1       UGScg                 en0       
+default            link#40            UCSIg               utun9       
+10.20.1/24         link#40            UCS                 utun9       
+10.20.2/24         link#40            UCS                 utun9       
+10.20.2.200/32     link#40            UCS                 utun9       
+10.20.10.61/32     link#40            UCS                 utun9       
+10.20.60/24        link#40            UCS                 utun9       
+100.64/10          link#40            UCS                 utun9       
+100.100.10.21      link#40            UHWIi               utun9       
+100.100.100.100/32 link#40            UCS                 utun9       
+100.100.100.100    link#40            UHWIi               utun9       
+100.100.10.22      link#40            UHWIi               utun9       
+100.100.10.20      100.100.10.20      UH                  utun9       
+127                127.0.0.1          UCS                   lo0       
+127.0.0.1          127.0.0.1          UH                    lo0       
+169.254            link#17            UCS                   en0      !
+192.168.88/28      link#17            UCS                   en0      !
+192.168.88.1/32    link#17            UCS                   en0      !
+192.168.88.1       2:0:0:0:0:1        UHLWIir               en0   1177
+192.168.88.2/32    link#17            UCS                   en0      !
+192.168.88.2       2:0:0:0:0:2        UHLWI                 lo0       
+192.168.88.15      ff:ff:ff:ff:ff:ff  UHLWbI                en0      !
+172.16.60          link#40            UCS                 utun9       
+172.16.60.1        link#40            UHWIi               utun9       
+172.16.61          link#40            UCS                 utun9       
+172.16.254         link#40            UCS                 utun9       
+172.16.254.100     link#40            UHWIi               utun9       
+224.0.0/4          link#17            UmCS                  en0      !
+224.0.0/4          link#40            UmCSI               utun9       
+224.0.0.251        1:0:5e:0:0:fb      UHmLWI                en0       
+239.255.255.250    1:0:5e:7f:ff:fa    UHmLWI                en0       
+255.255.255.255/32 link#17            UCS                   en0      !
+255.255.255.255/32 link#40            UCSI                utun9       
